@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: darkslateblue;
+    text-align: center;
+    color: whitesmoke;
+    padding: 5px;
+    text-transform: capitalize;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    
+}
+li a{
+    text-decoration: none;
+    color: whitesmoke;
+    text-transform: capitalize;
+}
+/* MAIN STYLE */
+main{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    margin: 10px;
+    
+}
+main img{
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+}
+footer{
+    background-color: darkslateblue;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 10px;
+    color: whitesmoke;
+}
